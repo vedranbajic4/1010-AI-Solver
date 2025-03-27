@@ -6,7 +6,7 @@ This is the C++ implementation of **MCTS** (Monte Carlo Search Tree) algorithm f
 ## What is 1010! game
 1010! is a block puzzle game similar to Tetris but without gravity. The goal is to place Tetromino-like shapes on a 10x10 grid to form and clear full rows or columns. The game ends when no more moves are possible. You get 3 block-shapes per turn.
 
-![1010 Example](.\images\1010.png)
+![1010 Example](images\1010.PNG)
 > https://poki.com/en/g/1010-deluxe?msockid=32a5d5abcfa16b332995c0e1cebc6a1d
 
 ## 🧠MCTS Algorithm
@@ -50,7 +50,7 @@ f = (f XOR d) + e
 
 After that the block’s index is c mod 5, while its rotation is f mod 4. The rotation is 90 * (f mod 4) degrees. 
 
-![block image](.\images\blocks.png)
+![block image](images\blocks.PNG)
 ### Constraints:
 $n = {8, 16, 20, 25}$
 
